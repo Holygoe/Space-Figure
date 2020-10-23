@@ -1,0 +1,63 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Pointer",
+            "id": "842a0b54-587c-4897-a5ac-52ef1ae3eea3",
+            "actions": [
+                {
+                    "name": "Touch",
+                    "type": "Value",
+                    "id": "62477dee-9926-4301-9a50-8754ae3e7a58",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                },
+                {
+                    "name": "Action",
+                    "type": "Button",
+                    "id": "066f3609-474a-4d49-a28b-a5deca8603f9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9daa52c1-23d9-427a-bdec-cffba0130b0c",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17c0fd7b-1387-401a-9cf1-f531ee9ccebc",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "74636f6d-6f83-4c37-a053-861ae310e7a6",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
